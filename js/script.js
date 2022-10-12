@@ -3,8 +3,8 @@ const etaUser = prompt("Quanti anni ha?");
 const scontoMinorenni = 0.2;
 const scontoOver = 0.4;
 
-document.getElementById("kilometri").innerHTML = kmUser
-document.getElementById("eta").innerHTML = etaUser
+document.getElementById("kilometri").innerHTML = kmUser;
+document.getElementById("eta").innerHTML = etaUser;
 
 let prezzoBiglietto = (kmUser * 0.21);
 
@@ -16,4 +16,4 @@ if (etaUser < 18) {
 
 document.getElementById("prezzo").innerHTML = `
 	${prezzoBiglietto.toFixed(2)} &euro;
-`
+`;
